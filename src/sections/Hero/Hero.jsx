@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/photo-profil.png';
+import heroImg from '../../assets/Design uten navn.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -53,9 +53,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        Je suis passionné par le web et le design, et j’aime créer des expériences modernes et intuitives !        </p>
+          Développeur Full Stack avec une passion pour la création de produits et l'innovation. J'aime travailler sur des projets qui ont un impact positif sur les gens et la planète.
+        </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>

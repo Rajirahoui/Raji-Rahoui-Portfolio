@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import shooter from '../../assets/shooter.png';
 import calculatrice from '../../assets/calculatrice.png';
-import toDoList from '../../assets/to-do-list.png';
+import ToDoList from '../../assets/to-do-list.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,21 +11,21 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={shooter}
-          link="https://github.com/Rajirahoui/SHOOTER"
+          link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Shooter"
-          p="Python"
+          p="Python Game"
         />
         <ProjectCard
           src={calculatrice}
-          link="https://github.com/Rajirahoui/Calculatrice-"
-          h3="Calculatrice"
-          p="HTML/Javascript"
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="calculatrice"
+          p="HTML/CSS/JS"
         />
         <ProjectCard
-          src={toDoList}
-          link="https://github.com/Rajirahoui/To-do-list-Vanilla-Javascript"
-          h3="To do List"
-          p="HTML/CSS - Javascript"
+          src={ToDoList}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="To Do List"
+          p="HTML/CSS/JS"
         />
       </div>
     </section>
