@@ -17,13 +17,13 @@ function Projects() {
         />
         <ProjectCard
           src={calculatrice}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://calculatriceraji.netlify.app"
           h3="calculatrice"
           p="HTML/CSS/JS"
         />
         <ProjectCard
           src={ToDoList}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://todolistraji.netlify.app"
           h3="To Do List"
           p="HTML/CSS/JS"
         />
